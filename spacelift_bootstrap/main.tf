@@ -8,6 +8,5 @@ terraform {
 }
 
 provider "spacelift" {
-  api_token = var.spacelift_api_token
 }
 
