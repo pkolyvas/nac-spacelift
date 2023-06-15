@@ -1,4 +1,4 @@
 variable "terraform_version" {
-    type = number
+    type = string
     description = "The Terraform version number"
 }
