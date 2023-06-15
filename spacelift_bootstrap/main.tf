@@ -8,6 +8,6 @@ terraform {
 }
 
 provider "spacelift" {
-  api_key_endpoint = "https://dontpanic.app.spacelift.io"
+  api_token = var.spacelift_api_token
 }
 
