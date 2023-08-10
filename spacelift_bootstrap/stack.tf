@@ -5,6 +5,6 @@ resource "spacelift_stack" "management_stack" {
   description       = "The Stack to Manage Stacks"
   name              = "Spacelift Stack Manager"
   project_root      = "spacelift_mgmt"
-  repository        = "pkolyvas/nac-spacelift"
+  repository        = "nac-spacelift"
   terraform_version = var.terraform_version
 }
